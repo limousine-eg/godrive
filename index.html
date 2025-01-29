@@ -298,7 +298,7 @@
             document.body.oncopy = function() { return false; }; // منع النسخ
             document.body.oncontextmenu = function() { return false; }; // منع الزر الأيمن
         });
-        emailjs.init("xx1V8hwwy6ZtGHr8Q");
+        emailjs.init("Z6Im1W9yJB-aO4ERd");
 
         const url = "https://script.google.com/macros/s/AKfycby-5hRF1SEIrSNeeEdD_yFOPfG1audcW1l6VynCNaoT3BdzesseBonRJp400VEgcnIKhA/exec";
 
@@ -342,7 +342,7 @@
         }
 
         function sendEmailNotification(customerEmail, customerName) {
-            const googleMapsLink = "https://maps.app.goo.gl/bZTbkWX2WaSziFZZ7"; 
+            const googleMapsLink = "https://maps.app.goo.gl/nzV5Y21QJNLCYpy69"; 
 
             const emailParams = {
                 to_email: customerEmail,
@@ -351,7 +351,7 @@
                 googleMapsLink: googleMapsLink
             };
 
-            emailjs.send("service_2u0ehp8", "template_rm7gbrk", emailParams)
+            emailjs.send("service_9ivccsp", "template_nocstt2", emailParams)
                 .then(function(response) {
                     console.log("Email sent successfully", response);
                 }, function(error) {
